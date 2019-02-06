@@ -1,0 +1,24 @@
+{
+  "name": "test-echo",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests",
+    "assets/libs"
+  ],
+  "authors": [
+    "raven41k"
+  ],
+  "description": "dev",
+  "main": "",
+  "license": "MIT",
+  "homepage": "",
+  "dependencies": {
+    "slick-carousel": "^1.8.1",
+    "jquery": "^3.3.1",
+    "hover": "^2.3.1",
+    "font-awesome": "Font-Awesome#v4.7.0"
+  }
+}

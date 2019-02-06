@@ -1,0 +1,19 @@
+@import "vars";
+@import "header";
+@import "fonts";
+
+
+//Load Libs SASS
+@import "../libs/font-awesome/scss/font-awesome.scss";
+//@import "../libs/components-font-awesome/scss/fa-brands.scss";
+//@import "../libs/components-font-awesome/scss/fa-regular.scss";
+//@import "../libs/components-font-awesome/scss/fa-solid.scss";
+@import "../libs/slick-carousel/slick/slick-theme.scss";
+@import "../libs/slick-carousel/slick/slick.scss";
+@import "../libs/hover/scss/hover.scss";
+
+
+
+
+
+@import "media";

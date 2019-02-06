@@ -1,0 +1,96 @@
+@import "vars.scss";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+html {
+  height: 100%;
+  -webkit-overflow-scrolling: touch;
+}
+
+body {
+  font-size: 16px;
+  min-width: 320px;
+  position: relative;
+  line-height: 1.6;
+  font-family: "RobotoLight";
+  overflow-x: hidden;
+  height: 100%;
+  -webkit-overflow-scrolling: touch;
+  transition: 0.4s ease;
+  &.pushy-open-left {
+    margin-left: 15%;
+    .line-menu {
+      display: none !important;
+    }
+  }
+}
+
+input:focus,
+button:focus {
+  outline: none;
+  border: none;
+}
+
+u {
+  text-decoration: underline;
+}
+h4 {
+  color: #4cdadf;
+}
+input,
+button {
+  outline: none;
+  border: none;
+}
+
+button {
+  cursor: pointer;
+  background-color: transparent;
+  outline:none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  border: none;
+  vertical-align: middle;
+}
+ul {
+  margin-left: 0 !important;
+}
+
+p {
+  margin:0 !important;
+}
+
+a {
+  text-decoration: none;
+}
+a:focus, a:hover {
+  color: #23527c;
+  text-decoration: none !important;
+}
+
+pre {
+  line-height: normal !important;
+  overflow-x: hidden !important;
+  background: none !important;
+  font-family: inherit !important;
+  font-size: inherit !important;
+  border: none !important;
+  padding:0 !important;
+  margin:0 !important;
+  border-radius: 0 !important;
+  color:inherit !important;
+}
+
+.hidden {
+  display: none;
+}
+.nopadding {
+  padding:0 !important;
+}
