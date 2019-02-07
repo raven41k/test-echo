@@ -34,10 +34,6 @@ gulp.task('scripts', function() {
         // './assets/libs/pushy/js/pushy.js',
 		'./assets/libs/slick-carousel/slick/slick.min.js',
         './assets/libs/select2/dist/js/select2.full.js',
-		'./assets/libs/bootstrap/dist/js/bootstrap.js',
-        './assets/libs/jquery.scrollbar/jquery.scrollbar.js',
-        './assets/libs/parallax.js/parallax.js',
-        './assets/libs/bLazy/blazy.js',
 		'./assets/js/common.js'
 		])
 		.pipe(concat('libs.js'))
