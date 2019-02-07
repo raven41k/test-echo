@@ -9,24 +9,18 @@
 html {
   height: 100%;
   -webkit-overflow-scrolling: touch;
+  font-size: 10px;
+  line-height: 10px;
 }
 
 body {
-  font-size: 16px;
   min-width: 320px;
   position: relative;
-  line-height: 1.6;
-  font-family: "RobotoLight";
+  font-family: $fontFamily;
   overflow-x: hidden;
   height: 100%;
   -webkit-overflow-scrolling: touch;
   transition: 0.4s ease;
-  &.pushy-open-left {
-    margin-left: 15%;
-    .line-menu {
-      display: none !important;
-    }
-  }
 }
 
 input:focus,
@@ -38,9 +32,7 @@ button:focus {
 u {
   text-decoration: underline;
 }
-h4 {
-  color: #4cdadf;
-}
+
 input,
 button {
   outline: none;
@@ -59,38 +51,21 @@ img {
   border: none;
   vertical-align: middle;
 }
-ul {
-  margin-left: 0 !important;
-}
-
-p {
-  margin:0 !important;
-}
 
 a {
   text-decoration: none;
 }
 a:focus, a:hover {
   color: #23527c;
-  text-decoration: none !important;
-}
-
-pre {
-  line-height: normal !important;
-  overflow-x: hidden !important;
-  background: none !important;
-  font-family: inherit !important;
-  font-size: inherit !important;
-  border: none !important;
-  padding:0 !important;
-  margin:0 !important;
-  border-radius: 0 !important;
-  color:inherit !important;
+  text-decoration: none;
 }
 
 .hidden {
   display: none;
 }
 .nopadding {
-  padding:0 !important;
+  padding:0;
+}
+.d-flex {
+  display: flex;
 }
